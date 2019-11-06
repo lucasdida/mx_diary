@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="{{ asset('css/mxdiary.css') }}">
 
 @extends('adminlte::page')
 
@@ -6,8 +5,6 @@
 
 @section('content')
     
-
-
 <form action="/cadastrar_relatos" method="POST" role="form" id="cadastrar_relatos" name="cadastrar_relatos">
     
     {{ csrf_field() }}
@@ -82,8 +79,8 @@
 
 </form>
 
-
 @stop
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="{{ asset('js/mxdiary.js') }}"></script>
-
