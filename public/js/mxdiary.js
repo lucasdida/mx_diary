@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
     function limpa_formulário_cep() {
         // Limpa valores do formulário de cep.
         $("#logradouro").val("");
@@ -57,3 +57,8 @@ $(document).ready(function () {
     });
 
 });
+
+jQuery(function($){
+    $("#telefone").mask("(00) 0000-00009");
+});
+

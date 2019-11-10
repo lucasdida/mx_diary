@@ -30,8 +30,9 @@
             </div>
             <div class="form-group col-md-2">
                 <label for="telefone" class="control-label">Telefone</label>
-                <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone">
+                <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Telefone" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}">
             </div>
+
         </div>
 
         <div class="form-group col-md-12">
@@ -81,6 +82,4 @@
 
 @stop
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="{{ asset('js/mxdiary.js') }}"></script>
+
