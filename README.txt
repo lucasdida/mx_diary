@@ -1,4 +1,4 @@
-- Ferramentas Utilizadas: 
+﻿- Ferramentas Utilizadas: 
 	- XAMPP;
 	- Visual Studio Code;
 	- Framework CodeIgniter;
@@ -18,6 +18,10 @@
 	- Abrir navegador, de preferencia o Google Chrome (navegador utilizado no desenvolvimento do projeto) e acessar o endere?o: http://localhost:8000/
 	- Sera direcionado para a tela de login do sistema, caso n?o tenha cadastrado nenhum usu¨¢rio anteriormente, sera necessario o cadastro do mesmo para que seja possivel acessar o sistema.
 	- Despois de acessado, o usuario tera a possibilidade de acessar as paginas de Criacao de Relatos e Listagem de Relatos.
+
+
+
+------------------------------------
 
 
 	
